@@ -1,0 +1,206 @@
+#aboutus{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color:rgba(0, 0, 0, 0.3);
+    color: #fefefe;
+}
+.aboutusCont{
+    background-color: rgba(240,247,243,0.6);
+    height:900px;
+    width:auto;
+    position:relative;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding:5px;
+}
+.imgCont{
+    position: absolute;
+    background-color: rgba(255,255,255,0.2);
+    width:350px;
+    height:400px;
+    top:5px;
+    right:5px;
+    padding: 5px;
+    
+}
+#fely{
+    width:350px;
+    height:400px;
+}
+.sideNavCont{
+    position: absolute;
+    background-color: rgba(255,255,255,0.2);
+    width:360px;
+    height:150px;
+    bottom:105px;
+    right:5px;  
+}
+.backgroundCont{
+    position: absolute;
+    top:10px;
+    background-color: rgba(0,117,54,0.8);
+    width:870px;
+    height:870px;
+    border-radius:10px;
+}
+#bckLabel{
+    top:10px;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    position:absolute;
+    color:white;
+    text-align: center;
+    font-size:35px;
+    
+}
+#bckLabel2{
+    top:250px;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    position:absolute;
+    color:white;
+    text-align: center;
+    font-size:35px;
+}
+#bckDescription {
+    top:45px;left:0;right:0;
+    margin-left:auto;margin-right:auto;
+    padding:20px;
+    position:absolute;
+    color:white;
+    text-align: justify;
+    text-indent: 50px;
+    font-size:24px;
+    /*background-color: rgba(0,117,54,0.6);*/
+}
+#VsnDescription{
+    top:30px;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:0 auto;
+    padding:25px;
+    position:absolute;
+    color:white;
+    text-align: justify;
+    text-indent: 50px;
+    font-size:25px;
+    /*background-color: rgba(255,255,255,0.2);*/
+}
+#MsnDescription{
+    top:270px;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:0 auto;
+    padding:25px;
+    position:absolute;
+    color:white;
+    text-align: justify;
+    text-indent: 50px;
+    font-size:25px;
+    /*background-color: rgba(255,255,255,0.2);*/
+}
+#owner{
+    text-align:center;
+    font-size:35px;
+    margin:auto;
+    bottom:5px;left:5px;right:5px;
+    color:white;
+    position:absolute;
+    background-color:rgba(24,25,26,0.6);
+}
+ul.sideListCont {
+    right:5px;
+    top: 405px;
+    padding: 0;
+    position: absolute;
+    list-style-type: none;
+    position: absolute;
+    width: 360px;
+    border-radius:10px;
+    background-color:rgba(24,183,114,0.8);
+}
+
+li.sideListBckgrnd a {
+    text-align:;
+    font-size: 25px;
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 60px;
+    background-color: rgba(255,255,255,0.2);
+    background:url("background.png")no-repeat transparent 10px 10px;
+    background-size:30px 30px;
+    text-decoration: none;
+     -moz-transition-duration: 0.6s;
+    -webkit-transition-duration: 0.6s;
+    transition: 0.6s
+}
+.sideListBckgrnd a:hover{
+    opacity: 0.9;
+    color: white;
+    background:url("background-hovers.png")no-repeat rgba(255,255,255,0.2) 10px 10px;
+    background-size:30px 30px;
+}
+
+li.sideListVisionmission a {
+    text-align:;
+    font-size: 25px;
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 60px;
+    text-decoration: none;
+    background:url("target.png")no-repeat transparent 10px 10px;
+    background-size:31px 31px;
+     -moz-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    transition: 0.5s;
+}
+.sideListVisionmission a:hover{
+    opacity: 0.9;
+    color: white;
+    background:url("target-hovers.png")no-repeat rgba(255,255,255,0.2) 10px 10px;
+    background-size:31px 31px;
+}
+li.sideListVisionmission a:hover{
+    opacity: 0.9;
+    /*background-color: rgba(255,255,255,0.2);*/
+    color: white;
+}
+
+.contacts{
+    background-color: rgba(0,117,54,0.8);
+    height:350px;
+    width:350px;
+    padding:5px;
+    position:absolute;
+    border-radius:10px;
+    bottom:30px;right:5px;
+}
+#contactLbl{
+    color: white;
+    text-align:center;
+    background-color:rgba(0,117,54,0.8);
+    font-size:30px;
+    left:0;right:0;top:10px;
+    margin: auto;
+    position:absolute;
+}
+#contactDesc{
+    color:white;
+    position:absolute;
+    font-size:21px;
+    top:55px;
+    padding:5px;
+}
+#fbLink{
+    color:white;
+}
+#fbLink:hover{
+    color:yellow;
+}

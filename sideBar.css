@@ -1,0 +1,169 @@
+.priceCont{
+    position:relative;
+    background-color:rgba(240,247,243,0.6);
+    height:900px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.amenitiesCont{
+    background-color:rgba(0,117,54,0.8);
+    top:5px;
+    right:5px;
+    width:890px;
+    height:850px;
+    position:absolute;
+}
+.termsnConditionCont{
+    position:absolute;
+    background-color:rgba(0,117,54,0.8);
+    border-radius:10px;
+    width:340px;
+    height:500px;
+    bottom: 45px;
+    left: 5px;
+}
+#termsnConditionLbl{
+    background-color:rgba(38, 66, 179, 0.4);
+    color:white;
+    font-size:25px;
+    position:absolute;
+    text-align:center;
+    right:0;
+    left:0;
+    margin-left: auto;
+    margin-right:auto;
+}
+#paratermsnCondition{
+    text-align:center;
+    position: absolute;
+    top:50px;
+    color:white;
+    font-size:20px;
+    padding:15px 5px 5px 5px;
+    right:0;left:0;
+    margin-left: auto;margin-right:auto;
+}
+.imgWrapper{
+    position:absolute;
+    background-color:#fff;
+    width:420px;
+    height:360px;
+    border:4px solid #fff;
+}
+.imgs{
+    position: absolute;
+    width:420px;
+    height:360px;
+}
+#imgWrapper1{
+    top:35px;
+    left:5px;
+}
+.housetypeLbl{
+    position: absolute;
+    bottom: 1px;left:0;right:0;
+    margin:auto;
+    padding:5px;
+    text-align: center;
+    color: white;
+    background-color:rgba(26,167,62,0.5);
+    font-size: 35px;
+}
+#imgWrapper2{
+    bottom:35px;
+    right:5px;
+}
+.tableWrapper1{
+    background-color:rgba(240,247,243,0.6);
+    position:absolute;
+    top:35px;right:5px;
+}
+.tableWrapper2{
+    background-color:rgba(240,247,243,0.6);
+    position:absolute;
+    bottom:35px;left:5px;
+}
+.table, th,td{
+    border-collapse:collapse;
+    border:1px solid black;
+    font-size:18px;
+    padding:0 5px 0 5px;
+    text-align:center;
+}
+th{
+    background-color:rgba(38, 66, 179, 0.4);
+}
+.table{
+    border:2px solid black;
+    height:365px;
+    width:450px;
+}
+.btnCont{
+    position:absolute;
+    top:5px;
+    left:5px;
+    width:340px;
+    height:400px;
+}
+ul.sideListCont {
+    bottom: 40px;right:0;left:0;
+    margin-left: auto;margin-right:auto;
+    padding: 0;
+    position: absolute;
+    list-style-type: none;
+    width: 340px;
+    background-color:rgba(24,183,114,0.8);
+    border-radius: 10px;
+}
+
+li.sideList a {
+    font-size: 25px;
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 55px;
+    text-decoration: none;
+    -moz-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    transition: 0.5s;
+}
+#categoriesList a{
+    background:url("categories.png")no-repeat  transparent 10px 10px;
+    background-size:30px 30px;
+}
+#categoriesList a:hover{
+    background-color: rgba(255,255,255,0.2);
+    color:white;
+    background:url("categories-hovers.png")no-repeat  rgba(255,255,255,0.2) 10px 10px;
+    background-size:30px 30px;
+}
+#amenitiesList a{
+    background:url("amenities.png")no-repeat  transparent 10px 10px;
+    background-size:30px 30px;
+}
+#amenitiesList a:hover{
+    background-color: rgba(255,255,255,0.2);
+    color:white;
+    background:url("amenities-hovers.png")no-repeat  rgba(255,255,255,0.2) 10px 10px;
+    background-size:30px 30px;
+}
+.pax{
+    position: absolute;
+    background-color: rgba(24,183,114,0.8);
+    border-radius: 10px;
+    left: 5px;top: 195px;
+    color:white;
+    font-size: 20px;
+    padding: 5px;
+    height: 50px;
+    width: 330px;
+    text-align: center;
+}
+.additional_rates_tbl{
+    position: absolute;
+    top:95px;left:5px;
+    width: 340px;
+    border-collapse:collapse; 
+    border-radius: 10px;
+}

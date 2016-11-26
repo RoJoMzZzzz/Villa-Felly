@@ -1,0 +1,203 @@
+body{
+		margin:0;
+		}
+.nav_Wrapper{
+		}
+.navigation{
+		list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+	    overflow: hidden;
+	    background:#276214;
+	    -webkit-box-shadow:1px 1px 3px #666666;
+	    -moz-box-shadow:1px 1px 3px #666666;
+	    box-shadow:1px 1px 3px #666666;
+		}
+.list{
+		float:left;
+		}
+.list a{
+		display: inline-block;
+	    color: white;
+	    text-align: center;
+	    padding: 14px 16px;
+	    text-decoration: none;
+		}
+.list a:hover{
+		background-color:rgba(174,199,166,0.2);
+		cursor:pointer;
+
+		}
+/*--------------------ADMIN IMAGES------------------*/
+.img-wrapper{
+		margin: 5px 0 0 5px;
+		-webkit-box-shadow:0px 0px 3px #666666;
+	    -moz-box-shadow:0px 0px 3px #666666;
+	    box-shadow:0px 0px 3px #666666;
+		width: 150px;
+		height:150px;
+		padding:15px;
+		border-radius: 2px;
+	}
+	img{
+		width: 150px;
+		height:150px;
+	}
+	#welcome{
+		background-color:#276214;
+		color:white;
+		width:170px;
+		border-radius: 2px;
+		margin:2px 0 0 5px;
+		font-size:20px;
+		padding:1px 5px 1px 5px;
+		text-align:center;
+		-webkit-box-shadow:0px 0px 3px #666666;
+	    -moz-box-shadow:0px 0px 3px #666666;
+	    box-shadow:0px 0px 3px #666666;
+	}
+/*--------------------------------------------------*/
+.update{
+			margin:7px 0 0 5px;
+			background-color: #276214;
+			padding:5px;
+			width:170px;
+			border-radius: 5px 5px 0 0;
+		}
+		#update_rates_Lbl{
+			color:white;
+			font-size:20px;
+		}
+		.form_wrapper{
+			margin:0px 0 0 5px;
+			padding:5px;
+			width:170px;
+			-webkit-box-shadow:0px 0px 1px 1px #666666;
+	    	-moz-box-shadow:0px 0px 1px 1px #666666;
+	    	box-shadow:0px 0px 1px 1px #666666;
+	    	border-radius: 0 0 5px 5px;
+		}
+		.to_modify{
+			width:100%;
+			box-sizing:border-box;
+			-ms-box-sizing:border-box;
+			-moz-box-sizing:border-box;
+			-webkit-box-sizing:border-box;
+			text-align:center;
+		}
+		.modify_btn{
+			background-color: #39991b;
+			color:white;
+			border:none;
+			border-radius: 5px;
+			padding:3px;
+			margin-top: 6px;
+
+		}
+/*------------------------------------------------------*/
+.up_down_Tbl{
+			position: absolute;
+			top:51px;left:195px;
+			width:80%;
+			border-collapse: collapse;
+			-webkit-box-shadow:1px 1px 1px 0px #666666;
+	    	-moz-box-shadow:1px 1px 1px 0px #666666;
+	    	box-shadow:1px 1px 1px 0px #666666;
+		}
+		th.title{
+			background-color: #276214;
+			color: white;
+			font-size: 20px;
+			padding: 5px 5px 5px 5px;
+		}
+		tr.row,td.cell{
+			border: 1px solid black;
+			border-collapse: collapse;
+			text-align: center;
+			padding: 0 5px 0 5px;
+			font-size: 20px
+		}
+		.bungalow_Tbl{
+			position: absolute;
+			top:200px;left:195px;
+			width:80%;
+			border-collapse: collapse;
+			-webkit-box-shadow:1px 1px 1px 0px #666666;
+	    	-moz-box-shadow:1px 1px 1px 0px #666666;
+	    	box-shadow:1px 1px 1px 0px #666666;
+		}
+		.Additional_Tbl{
+			position: absolute;
+			top:350px;left:195px;
+			width:80%;
+			border-collapse: collapse;
+			-webkit-box-shadow:1px 1px 1px 0px #666666;
+	    	-moz-box-shadow:1px 1px 1px 0px #666666;
+	    	box-shadow:1px 1px 1px 0px #666666;
+		}
+/*--------------------------------------------------------*/
+.search_reservation{
+			float:right;
+			margin:12px 15px 0 0;
+			padding:1px 1px 1px 22px;
+			border-radius: 5px;
+			font-size:17px;
+			border: none;
+			background:url("search.png")no-repeat white 1px 1px;
+			background-size: 20px 20px;
+		}
+		.search_Btn{
+			float:right;
+			margin:12px 10px 0 0;
+			border-radius: 5px;
+			border: none;
+			padding:3px;
+			color: white;
+			background-color: #39991b;
+		}
+/*--------------------------------------------------------*/
+/*--------------------------------------------------------*/
+.reserve_tbl{
+	position: absolute;
+	top:51px;left:195px;
+	width:75%;
+	border-collapse: collapse;
+	border:1px solid black;
+}
+#reserve_tbl_title{
+	background-color: #276214;
+	color: white;
+	font-size: 20px;
+	padding: 5px 5px 5px 5px;
+}
+.reserve_row, .reserve_cell{
+	border-collapse: collapse;
+	border:1px solid black;
+	text-align: center;
+	padding: 0 5px 0 5px;
+	font-size: 20px
+}
+/*---------------------------------------------------*/
+/*----------------------------------------------------*/
+.guest_tbl{
+	position: absolute;
+	top:51px;left:195px;
+	width:75%;
+	border-collapse: collapse;
+	border:1px solid black;
+}
+#guest_tbl_title{
+	background-color: #276214;
+	color: white;
+	font-size: 20px;
+	padding: 5px 5px 5px 5px;
+}
+.guest_row, .guest_cell{
+	border-collapse: collapse;
+	border:1px solid black;
+	text-align: center;
+	padding: 0 5px 0 5px;
+	font-size: 20px
+}
+/*---------------------------------------------------*/
+/*----------------------------------------------------*/

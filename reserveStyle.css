@@ -1,0 +1,152 @@
+.reserveCont{
+    background-color:rgba(240,247,243,0.6);
+    height: 880px;
+    padding:5px;
+    position:relative;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.formWrapper{
+    position: absolute;
+    margin-left: 10px;
+    top:190px;
+    width:650px;
+    background-color: rgba(0,117,54,0.6); 
+    border-radius:5px;
+    padding:0px;
+    box-shadow: 0 0 1px 1px black;
+}
+#yourreserveLbl{
+    font-size: 35px;
+    margin-left: 10px;
+
+}
+
+label{
+    color: white;
+}
+#dateLbl{
+    font-size:25px;
+    margin-left: 10px;
+    display: inline-block;
+}
+#housetypeLbl{
+    font-size: 25px;
+    margin-left: 10px;
+}
+#timeLbl{
+    font-size: 25px;
+    margin-left: 10px;
+}
+#guestLbl{
+    font-size: 25px;
+    margin-left: 10px;
+}
+.inputForm2{
+    padding:5px;
+    font-size:25px;
+    border:1px solid black;
+    border-radius:5px;
+    text-align:left;
+    margin-left: 10px;
+}
+.reserveBtn{
+    font-size: 20px;
+    border-radius:5px;
+    color:white;
+    padding:5px 10px;
+    border:1px solid white;
+    background-color: rgba(26, 188, 49, 0.6);
+    margin-top: 15px;
+}
+.reserveBtn:hover{
+     cursor:pointer;
+    background-color: rgba(26, 188, 49, 0.8);
+}
+form{
+    margin-top:5px;
+}
+#termsncond{
+    text-decoration: underline;
+    color:yellow;
+    font-size: 25px;
+}
+#termsncond:hover{
+    cursor:pointer;
+}
+
+.formWrapper2{
+    position: absolute;
+    top:510px;
+    width:650px;height: 370px;
+    background-color: rgba(0,117,54,0.6); 
+    border-radius:5px;
+    padding:0px;
+    box-shadow: 0 0 1px 1px black;
+    margin-left: 10px;
+}
+.inputForm3{
+    padding:5px;
+    font-size:20px;
+    border:1px solid black;
+    border-radius:5px;
+    text-align:left;
+    margin-left: 10px;
+    width:100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#please{
+    color: rgba(0,117,54,0.9); 
+    font-size: 40px;
+    position: absolute;
+    top:70px;left:0;right:0;
+    margin:auto;
+}
+#reservationTag{
+    font-size: 35px;
+    margin-left: 10px;
+}
+table{
+    margin-top: 5px;
+}
+input[type="checkbox"]{
+    margin-left: 50px;
+    -ms-transform: scale(1.5); 
+    -moz-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    -o-transform: scale(1.5); 
+}
+td{
+    padding: 5px;
+}
+.formWrapper3{
+    position: absolute;
+    bottom:10px;right:10px;
+    width:550px;height: 690px;
+    background-color: rgba(0,117,54,0.6); 
+    border-radius:5px;
+    padding:0px;
+    box-shadow: 0 0 1px 1px black;
+}
+#finishLbl{
+    font-size: 25px;    
+}
+
+.output_form{
+    margin-top: 45px;
+}
+.outputLbl{
+    font-size:25px;
+}
+.output{
+    text-align:center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size:25px;
+    padding:5px;
+}

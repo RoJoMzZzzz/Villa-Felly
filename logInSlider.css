@@ -1,0 +1,67 @@
+.sliderformCont{
+    background-color:rgba(240,247,243,0.6);
+    height: 490px;
+    padding:5px;
+    position:relative;
+    border-top-left-radius: 10px;
+    
+}
+.sliderCont{
+    width:800px;
+    height: 490px;
+    position: absolute;
+}
+.logincont{
+    background-color:rgba(0,117,54,0.8); 
+    right:15px; 
+    height: 490px;
+    width:410px;
+    position: absolute;
+    border-radius:10px;
+}
+#admin{
+    top:5px;right:5px;
+    position:absolute;
+    opacity:0.8;
+}
+#admin:hover{
+    cursor:pointer;
+    opacity:1;
+}
+.loginform{
+    margin-top:70px;
+}
+#bookNowLbl{
+    color:white;
+    font-size:25px;
+}
+.inputForm{
+    padding:5px;
+    text-align:center;
+    border-radius:5px;
+    font-size:20px;
+}
+
+.Btn{
+    border-radius:5px;
+    font-size: 20px;
+    color:white;
+    padding:5px 10px;
+    border:1px solid white;
+    background-color: rgba(26, 188, 49, 0.6);
+    -moz-transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+    transition-duration:0.4s;
+}
+#submit{
+    position: absolute;
+    left:120px;
+}
+#clear{
+    position:absolute;
+    right:120px;
+}
+.Btn:hover{
+    cursor:pointer;
+    background-color: rgba(26, 188, 49, 0.8);
+}

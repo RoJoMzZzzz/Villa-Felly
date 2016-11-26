@@ -1,0 +1,98 @@
+label.overlay {
+ position: fixed;
+ display: none;
+ height: 100%;
+ width: 100%;
+ left: 0;
+ top: 0;
+}
+input[type=checkbox].smoosh:checked ~ label.overlay {
+ display: block;
+ z-index: 500;
+}
+div.overlay-dialogue {
+border-radius: 10px;
+ position: fixed;
+ display: none;
+ width: 400px;
+ height:200px;
+ top: 0;bottom: 0;left:0;right:0;
+ margin-left: auto;margin-right:auto; margin-top: auto; margin-bottom: auto;
+ background: whitesmoke;
+ padding:10px;
+}
+input[type=checkbox].smoosh:checked ~ div.overlay-dialogue {
+ display: block;
+ z-index: 505;
+}
+#adminLbl{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+.overlay-dialogue p{
+    font-size:20px;
+    padding:10px;
+}
+.signUpInput{
+    text-align:center;
+    font-size: 25px;
+    margin: 5px;
+    font-family: Tahoma;
+    border-radius: 15px;
+    border:0.5px solid black;
+    padding:5px;
+}
+.logInBtn{
+    color:white;
+    font-size:20px;
+    background-color: rgba(26, 188, 49, 0.6);
+    border:none;
+    padding:5px;
+    border:0.5px solid white;
+    border-radius: 5px;
+}
+/* eye candy */
+
+.smoosh {
+ display: none;
+ line-height: 0;
+ margin: 0 0 0 0;
+ padding: 0 0 0 0;
+ color:transparent;
+ background: transparent;
+ border: none;
+ outline: none;
+ height: 0;
+ width: 0;
+}
+div.overlay-dialogue {
+ animation: START 0.3s ease-in-out;
+}
+@keyframes START {
+ 0% {transform: rotateY(55deg); opacity: 0;}
+ 100% {transform: rotateY(0deg); opacity: 1;}
+}
+
+label.overlay {
+ background-color: rgba(0,0,0,.5);
+ text-align: center;
+ color: rgba(200, 200, 200, 0.5);
+ line-height: 120%;
+}
+label.overlay:hover, label.overlay:active {
+ line-height: 120%;
+ color: darkgrey;
+}
+label.overlay:active {
+ line-height: 130%;
+}
+label.overlay:before {
+    font-size:25px;
+    content: 'Tap here to dismiss';
+}
+
+label.overlay {
+ color: white;
+ font-size:25px;
+}

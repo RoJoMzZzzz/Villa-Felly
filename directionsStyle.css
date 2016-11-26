@@ -1,0 +1,106 @@
+#direction{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color:rgba(0, 0, 0, 0.3);
+    color: #fefefe;
+}
+.mapCont{
+    background-color:rgba(240,247,243,0.6);
+    height:900px;
+    padding: 5px;
+    position: relative;
+    border-top: 0px solid rgba(255,255,255,0.2);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+iframe{
+    border-radius: 10px;
+    position:absolute;
+    top:5px;
+    right:5px;
+}
+.locationCont{
+    background-color:rgba(38, 66, 179, 0.4);
+    border-radius: 10px;
+    position:absolute;
+    top: 65px;
+    left: 5px;
+    width: 480px;height:530px;
+    
+}
+#locationdescCont{
+    border:1px solid red;
+    background-color:rgba(255,255,255,0.2);
+    position:absolute;
+    border-radius: 10px;
+    top:5px;
+    left:5px;
+    width:480px;height:165px;
+}
+.locAndDirectLbl{
+    font-size: 35px;
+    color:white;
+    position:absolute;
+    text-align: center;
+    /*border:1px solid black;*/
+    top:0;left:0;right:0;
+    margin:auto;
+}
+#directCont{
+    background-color:rgba(38, 66, 179, 0.4);
+    position:absolute;
+    border-radius: 10px;
+    bottom: 10px;
+    right:5px;
+    width:900px;height:300px;
+}
+#entranceImg{
+    position:absolute;
+    bottom:0;left:0;right:0;
+    margin:auto;
+    width:480px;height:480px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#address{
+    background-color:rgba(24,25,26,0.8);
+    position:absolute;
+    position: absolute;
+    margin:auto;
+    bottom:0;left:0;right:0;
+    border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;
+    color:white;
+    text-align:center;
+    font-size:25px;
+}
+#directionInstruc{
+    background-color:rgba(0,117,54,0.8);
+    border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;
+    text-indent:30px;
+    top:15px;
+    padding:5px 15px 5px 15px;
+    position:absolute;
+    text-align: justify;
+    font-size:21px;
+    color:white;
+    height:255px;
+}
+#forTranspo{
+    background-color:rgba(38, 66, 179, 0.4);
+    width:330px;height:300px;
+    position: absolute;
+    bottom:10px;left:5px;
+    border-radius: 10px;
+}
+#Transpo{
+    background-color:rgba(0,117,54,0.8);
+    border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;
+    top:60px;
+    padding:10px 15px 5px 15px;
+    position:absolute;
+    text-align: justify;
+    font-size:20px;
+    color:white;
+    height:205px;
+}

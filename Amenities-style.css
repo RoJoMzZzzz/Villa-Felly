@@ -1,0 +1,102 @@
+#rates{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color:rgba(0, 0, 0, 0.3);
+    color: #fefefe;
+    }
+#amenitiesList a{
+    color:white;
+    background:url("amenities-hovers.png")no-repeat  transparent 10px 10px;
+    background-size:30px 30px;
+}
+.amenWrapper1, .amenWrapper2, .amenWrapper3{
+    left:0;right:0;margin: auto;
+    width:800px;
+    height:250px;
+    position: absolute;
+    padding:5px;
+}
+.amenWrapper1{
+    top:15px;
+}
+.amenWrapper2{
+    margin:auto;
+    top: 5px;right:0;left:0;bottom:5px;
+}
+.amenWrapper3{
+    bottom:15px;
+}
+
+#one{
+    top:5px;left:5px;bottom:5px;
+    
+}
+#two{
+    margin:auto;
+    top: 5px;right:0;left:0;bottom:5px;
+}
+#three{
+    top: 5px;right:5px;bottom:5px;
+}
+.amen:before{
+    content: "View"; 
+    position: absolute;
+    top: 2px;left:2px;
+    background: rgba(0,117,54,0.6); 
+    color: #fff;
+    width: 50px;
+    height: 24px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius:    12px;
+    border-radius:         12px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+  /* Only Fx 4 supporting transitions on psuedo elements so far... */
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    opacity: 1; 
+    z-index: 1;
+}
+.amen:hover:before{
+    opacity: 0;
+}
+.amen{
+    position: absolute;
+    background-color: rgba(255,255,255,0.2);
+    width: 250px;
+    height:250px;
+    overflow: hidden;
+}
+.underTag{
+    margin:auto;
+    bottom:0;left:0;right:0;
+    text-align:;
+    position: absolute;
+    background-color:rgba(24,25,26,0.8);
+    width: 250px;
+    height:50px;
+    color:white;
+    font-size: 25px;
+    opacity: 0;
+    bottom: -20%; 
+    left: 0;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition:    all 0.6s ease;
+  -o-transition:      all 0.6s ease;
+}
+.amen:hover .underTag{
+    opacity: 1;
+    bottom: 0;
+}
+.amenImges{
+    position:absolute;
+    width: 250px;
+    height:250px;
+    opacity:0.8;
+}
+.amenImges:hover{
+    opacity:1;
+    cursor:pointer;
+}
